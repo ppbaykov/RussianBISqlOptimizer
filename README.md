@@ -36,7 +36,7 @@ SELECT
     `Column2` AS `Attribute2`,
     SUM(`Column3`) AS `Attribute3`
 FROM
-    dimdate
+    `Table`
 WHERE
     `Column1` = 1000
 GROUP BY
