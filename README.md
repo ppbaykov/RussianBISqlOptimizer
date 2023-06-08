@@ -24,8 +24,7 @@ FROM
 )
 GROUP BY
 `Col1`,
-`Col2`,
-`Col3`
+`Col2`
 ```
 
 Необходимо имплементировать метод `SqlOptimizer.Optimize` чтобы SQL был таким
@@ -42,6 +41,5 @@ WHERE
     `Column1` = 1000
 GROUP BY
     `Column1`,
-    `Column2`,
-    `Column3`
+    `Column2`
 ```

@@ -27,8 +27,7 @@ var statement = new SelectQuery()
     .GroupBy(new[]
     {
         new Column("Col1"),
-        new Column("Col2"),
-        new Column("Col3")
+        new Column("Col2")
     });
 
 Console.WriteLine(statement.ToString());
